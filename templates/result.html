@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+        .result-box {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Prediction Result</h1>
+        <div class="result-box">
+            <p><strong>Predicted Target:</strong> {{ target }}</p>
+            <p><strong>Predicted Failure Type:</strong> {{ failure_type }}</p>
+        </div>
+        <div class="text-center">
+            <a href="/" class="btn btn-primary">Make Another Prediction</a>
+        </div>
+    </div>
+</body>
+</html>
