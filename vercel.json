@@ -15,5 +15,14 @@
       "src": "/(.*)",
       "dest": "templates/index.html"
     }
+  ],
+  "files": [
+    "app.py",
+    "models/model_target.pkl",
+    "models/model_failure_type.pkl",
+    "models/label_encoder.pkl",
+    "templates/index.html",
+    "templates/result.html",
+    "static/style.css"
   ]
 }
